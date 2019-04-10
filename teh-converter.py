@@ -34,7 +34,7 @@ def get_notes(filename):
 
 
 def convert(note, strategy):
-    # uses the playable midi notes between 52 and 76 (E3 and E5)
+    # uses the playable midi notes between 52 and 76 (E2 and E4)
     # and ignores everything else
     if strategy == 'basic-high':
         if note == 52:
